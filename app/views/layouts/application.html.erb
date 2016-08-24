@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  </head>
+
+  <body>
+    <%= render 'partials/nav' %>
+    <%= yield %>
+  </body>
+</html>
+
+<!-- pages_controller : create a method that reflects the new page.
+routes : get 'controller/html_page'
+create the html.erb file in the folder that reflects the controller. -->
