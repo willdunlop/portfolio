@@ -1347,3 +1347,395 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-24 18:38:49 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+  Rendered partials/_nav.html.erb (0.6ms)
+Completed 200 OK in 352ms (Views: 332.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:38:52 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:43:40 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:43:59 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.2ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:44:37 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (1.3ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:45:01 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:45:45 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:46:18 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (2.7ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:50:43 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:51:24 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 79ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:52:53 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (0.7ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:54:53 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 18:55:41 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.9ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 18:56:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 18:56:50 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (3.4ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:00:02 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:00:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:00:04 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:00:05 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:00:42 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:01:55 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (1.3ms)
+  Rendered partials/_nav.html.erb (0.6ms)
+Completed 200 OK in 134ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:02:22 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (2.8ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:02:33 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.9ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:02:39 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:02:52 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:02:55 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:13:00 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:13:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:14:48 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:17:49 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (2.8ms)
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:18:29 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:18:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2016-08-24 19:18:52 +1000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-24 19:19:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:19:38 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (2.1ms)
+  Rendered partials/_nav.html.erb (0.7ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:19:53 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (1.2ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+Completed 200 OK in 107ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:20:31 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (19.1ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:20:49 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:21:00 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (1.0ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:21:39 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.9ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:22:07 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:22:13 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:22:51 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:23:00 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.8ms)
+  Rendered partials/_nav.html.erb (3.5ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:23:08 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:23:25 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.5ms)
+Completed 200 OK in 104ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:24:12 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (4.7ms)
+Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:26:39 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-24 19:35:40 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+

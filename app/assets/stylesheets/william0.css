@@ -26,7 +26,7 @@ h4{
 }
 
 body {
-  background-color: #6a9053;
+  background: url(http://i63.tinypic.com/2e4vzmv.jpg);
 }
 
 .linkbar {
@@ -38,13 +38,13 @@ body {
 .nav {
  background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
  background-position: center;
- margin: 0 auto 0 auto;
+ margin: 0px auto 20px auto;
  /*position: fixed;*/
  height: 200px;
  width: 1600px;
- border-bottom-style: solid;
- border-bottom-width: thin;
- border-bottom-color: #fff;
+ border-style: solid;
+ border-width: medium;;
+ border-color: #fff;
  font-family: 'Ubuntu', sans-serif;
  color: #fff;
 
@@ -217,15 +217,21 @@ a:hover { text-decoration: none; color:#17d000; }
 .topwork {
 
   height: 450px;
+  width: 1600px;
+  margin: 0px auto 0px auto;
+  font-family: 'Ubuntu', sans-serif;
 }
   .hilltown {
-    width: 700px;
+    width: 750px;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 20px auto 0px auto;
     padding: 5px 5px 5px 5px;
     color: #fff;
     float: left;
+    border-style: solid;
+    border-width: thin;
+    font-size: 18px;
   }
     .hillimage {
       width: 250px;
@@ -238,14 +244,22 @@ a:hover { text-decoration: none; color:#17d000; }
     }
 
   .benyk {
-    width: 700px;
+    width: 750px;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 20px auto 0px auto;
     padding: 5px 5px 5px 5px;
     color: #fff;
     float: right;
+    border-style: solid;
+    border-width: thin;
+    font-size: 18px;
   }
     .benykimage {
-
+      width: 250px;
+      height: 250px;
+      background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+      background-size: contain;
+      float: left;
+      margin: 20px 20px 5px 5px;
     }
