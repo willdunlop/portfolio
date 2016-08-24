@@ -214,20 +214,38 @@ a:hover { text-decoration: none; color:#17d000; }
 
   /* WORK PAGE */
 
-.hilltown {
-  width: 700px;
-  height: 230px;
-  background-color: rgba(0, 0, 0, 0.4);
-  margin: 20px auto 0px auto;
-  padding: 5px 5px 5px 5px;
-  color: #fff;
-}
-  .hillimage {
-    width: 250px;
-    height: 250px;
-    background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
-    background-size: contain;
-    float: left;
-    margin: 20px 20px 5px 5px;
+.topwork {
 
+  height: 450px;
+}
+  .hilltown {
+    width: 700px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    float: left;
   }
+    .hillimage {
+      width: 250px;
+      height: 250px;
+      background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+      background-size: contain;
+      float: left;
+      margin: 20px 20px 5px 5px;
+
+    }
+
+  .benyk {
+    width: 700px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    float: right;
+  }
+    .benykimage {
+
+    }
