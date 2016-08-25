@@ -11,7 +11,10 @@ h1 {
   padding-top: 1%;
   margin-bottom: 10px;
   margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
+  width: 500px;
 
 }
 
@@ -22,17 +25,21 @@ h4{
   color: #fff;
   padding: 1px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 
 }
 
 body {
-  background: url(http://i63.tinypic.com/2e4vzmv.jpg);
+  background: url(http://i67.tinypic.com/16lirk7.png) no-repeat;
+  background-size: cover;
 }
 
 .linkbar {
   margin: 0 auto 0 auto;
-  width: 1250px;
-  height: 100px;
+  width: 975px;
+  height: 70px;
 }
 
 .nav {
@@ -61,10 +68,9 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .home{
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 200px;
+  text-align:center;
   margin-right: 50px;
-  margin-left: 50px;
   border-style: solid;
   border-width: thin;
   transition-duration: 0.5s;
@@ -80,8 +86,8 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .work{
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 200px;
+  text-align:center;
   margin-right: 50px;
   border-style: solid;
   border-width: thin;
@@ -96,8 +102,8 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .about {
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 200px;
+  text-align:center;
   margin-right: 50px;
   border-style: solid;
   border-width: thin;
@@ -113,9 +119,9 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .contact {
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-right: 50px;
+  width: 200px;
+  text-align:center;
+  margin-right: 0px;
   border-style: solid;
   border-width: thin;
   transition-duration: 0.5s;
@@ -127,24 +133,52 @@ a:hover { text-decoration: none; color:#17d000; }
     color: #17d000;
   }
 
+.UC {
+  margin: 0px auto 0px auto;
+  width: 200px;
+  height: 30px;
 
-.links{
-  float: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-right: 50px;
-  border-style: solid;
-  border-width: thin;
-  transition-duration: 0.5s;
-  /*transition-timing-function: ease-in-out;*/
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
-  .links:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #17d000;
+  .log{
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px auto 0px auto;
+    color: #b0b0b0;
+    transition-duration: 0.5s;
+    /*transition-timing-function: ease-in-out;*/
+
   }
 
+    .log:hover{
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #17d000;
+    }
+
+  .reg {
+    float: right;
+    list-style: none;
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px auto 0px auto;
+    color: #b0b0b0;
+    transition-duration: 0.5s;
+    /*transition-timing-function: ease-in-out;*/
+
+  }
+
+    .reg:hover{
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #17d000;
+    }
 
 .foot{
   margin: 0 auto 0 auto;
@@ -216,7 +250,7 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .topwork {
 
-  height: 450px;
+  height: 300px;
   width: 1600px;
   margin: 0px auto 0px auto;
   font-family: 'Ubuntu', sans-serif;
@@ -224,12 +258,13 @@ a:hover { text-decoration: none; color:#17d000; }
   .hilltown {
     width: 750px;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
     padding: 5px 5px 5px 5px;
-    color: #fff;
+    color: #000;
     float: left;
     border-style: solid;
+    border-color: #898787
     border-width: thin;
     font-size: 18px;
   }
@@ -246,12 +281,13 @@ a:hover { text-decoration: none; color:#17d000; }
   .benyk {
     width: 750px;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
     padding: 5px 5px 5px 5px;
-    color: #fff;
+    color: #000;
     float: right;
     border-style: solid;
+    border-color: #898787
     border-width: thin;
     font-size: 18px;
   }
@@ -263,3 +299,80 @@ a:hover { text-decoration: none; color:#17d000; }
       float: left;
       margin: 20px 20px 5px 5px;
     }
+
+.bottomwork {
+  height: 450px;
+  width: 1600px;
+  margin: 0px auto 0px auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+  .animation {
+    width: 750px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    float: left;
+    border-style: solid;
+    border-width: thin;
+    font-size: 18px;
+  }
+
+    .aniimage {
+
+    }
+
+  .code {
+    width: 750px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    float: right;
+    border-style: solid;
+    border-width: thin;
+    font-size: 18px;
+  }
+
+    .codeimage {
+
+    }
+
+.silo {
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-style: solid;
+  border-color: #000;
+  margin: 0px auto 0px auto;
+  width:1570px;
+  height: 610px;
+  color: #000;
+}
+
+  .silovid {
+    float:left;
+    margin-right: 20px;
+  }
+
+
+  /* Login and registration fields*/
+
+.SU {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0px auto 0px auto;
+  width: 300px;
+  height: 375px;
+  padding: 1%;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  border-style: solid;
+}
+
+  .field {
+    margin: 8px auto 8px auto;
+    border-bottom-style: dashed;
+    padding-bottom: 20px;
+  }

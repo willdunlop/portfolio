@@ -4,6 +4,8 @@
       <h1>williamdunlop</h1>
       <h4>A website</h4>
 
+
+
       <article class="linkbar">
         <a style="display:block" href="/">
           <div class="home">
@@ -25,10 +27,34 @@
             <p>CONTACT</p>
           </div>
         </a>
-        <a style="display:block" href="/pages/links">
-          <div class ="links">
-            <p>LINKS</p>
-          </div>
-        </a>
-      </article>
+
+        </article>
+        <div class="UC">
+          <a style="display:block">
+            <div class ="log">
+              <% if user_signed_in? %>
+                <li>
+                <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+                </li>
+              <% else %>
+                <li>
+                <%= link_to('Login', new_user_session_path)  %>
+                </li>
+              <% end %>
+            </div>
+          </a>
+          <a>
+            <div class ="reg">
+              <% if user_signed_in? %>
+                <li>
+                <%= link_to('Edit registration', edit_user_registration_path) %>
+                </li>
+              <% else %>
+                <li>
+                <%= link_to('Register', new_user_registration_path)  %>
+                </li>
+              <% end %>
+            </div>
+          </a>
+        </div>
     </article>
