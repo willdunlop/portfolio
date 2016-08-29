@@ -376,3 +376,18 @@ a:hover { text-decoration: none; color:#17d000; }
     border-bottom-style: dashed;
     padding-bottom: 20px;
   }
+
+/* ABOUT ME */
+
+.me {
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-style: solid;
+  border-color: #000;
+  margin: 0px auto 0px auto;
+  width:1570px;
+  height: 610px;
+  color: #000;
+  font-family: 'Ubuntu', sans-serif;
+
+}
