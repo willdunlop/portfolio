@@ -14,7 +14,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-  width: 500px;
+  width: 1300px;
 
 }
 
@@ -446,4 +446,171 @@ a:hover { text-decoration: none; color:#17d000; }
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
     border-style: solid;
+  }
+
+
+  /* HILLTOWN */
+
+  .hillheading {
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.0);
+    letter-spacing: 25px;
+    padding-top: 1%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    width: 1300px;
+
+  }
+
+  .image {
+     width: 141px;
+     height: 83px;
+     padding: 25px;
+     margin: 0 auto 0 auto;
+     /*margin-left: 25px;*/
+     margin-top: 25px;
+     margin-bottom: 25px;
+     transition: width 2s height 2s;
+     transition-duration: 2s;
+     background-color: rgb(70, 70, 70);
+
+     background: url(http://i63.tinypic.com/wb2elz.jpg) no-repeat;
+     background-size: contain;
+     /*border-radius: 5%;*/
+     border-style: solid;
+     border-color: #000;
+     /*float: left;*/
+  }
+
+  .text1 {
+    background-color: rgba(225,225,225,0.5);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    color: #000;
+
+  }
+
+  .image:hover {
+    width: 426px;
+    height: 281px;
+    background: url(http://i63.tinypic.com/wb2elz.jpg) no-repeat;
+    background-size: contain;
+    /*border-radius: 5%;*/
+    border-width: thick;
+
+  }
+
+
+  .image2 {
+    width: 141.5px;
+    height: 83px;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: width 2s height 2s;
+    transition-duration: 2s;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+    background-size: contain;
+    /*border-radius: 5%;*/
+    border-style: solid;
+    border-color: #000
+
+  }
+
+  .image2:hover {
+    width: 427px;
+    height: 281px;
+    background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+    background-size: contain;
+    /*border-radius: 5%;*/
+    border-width: thick;
+
+  }
+
+
+  .image3 {
+    width: 141px;
+    height: 83px;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: width 2s height 2s;
+    transition-duration: 2s;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+    background-size: contain;
+    /*border-radius: 5%;*/
+    border-style: solid;
+    border-color: #000
+
+  }
+
+  .image3:hover {
+    width: 427px;
+    height: 281px;
+    background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+    background-size: contain;
+    /*border-radius: 5%;*/
+    border-width: thick;
+
+  }
+
+  .abouthill {
+    margin 0 auto 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding: 20px;
+    background-color: rgba(225,225,225,0.5);
+    border-style: solid;
+    text-align: center;
+    text-decoration: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    transition-duration: 1s;
+    /*padding-left: 25%;
+    padding-right: 25%;*/
+  }
+
+  .abouthill:hover {
+    background-color: rgba(225,225,225,0.9);
+
+  }
+
+  .whenhill {
+    margin 0 auto 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding: 20px;
+    background-color: rgba(225,225,225,0.5);
+    border-style: solid;
+    text-align: center;
+    text-decoration: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    transition-duration: 1s;
+    /*padding-left: 25%;
+    padding-right: 25%;*/
+  }
+
+  .whenhill:hover {
+    background-color: rgba(225,225,225,0.9);
+
   }

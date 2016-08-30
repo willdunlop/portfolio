@@ -6098,3 +6098,403 @@ Processing by PagesController#work as HTML
 Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 14:41:03 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 120ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 14:41:47 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (1.5ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 14:43:12 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:43:16 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/pages/pages/hilltown"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [32 times] (21.4ms)
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.6ms)
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 14:43:37 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 14:43:40 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 100ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:43:43 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:44:31 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 123ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:44:42 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (6.0ms)
+Completed 200 OK in 133ms (Views: 131.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:47:34 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 14:48:30 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-08-30 15:09:42 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (11.7ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 106ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2016-08-30 15:09:49 +1000
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AUeKSpA4NEHNUTdFLNt5e7VUGOEhiqteFzBujsLCCncBFBizNjXaJtcX8Jh4B0JKxSPA19p6qIF2WHJ81cVyQ==", "contact"=>{"name"=>"szdgv", "email"=>"william.dunlop.1993@gmail.com", "message"=>"sdfbh"}, "commit"=>"Send message"}
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb (1.1ms)
+MailForm::Notifier#contact: processed outbound mail in 24.9ms
+Sent mail to william.dunlop.1993@gmail.com (7088.0ms)
+Date: Tue, 30 Aug 2016 15:09:49 +1000
+From: szdgv <william.dunlop.1993@gmail.com>
+To: william.dunlop.1993@gmail.com
+Message-ID: <57c5151de0856_1a3c1ef9f8815571@will-VirtualBox.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  szdgv</p>
+
+  <p><b>Email:</b>
+  william.dunlop.1993@gmail.com</p>
+
+  <p><b>Message:</b>
+  sdfbh</p>
+
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (1.4ms)
+  Rendered partials/_nav.html.erb (2.8ms)
+Completed 200 OK in 7179ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:10:00 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 93ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-08-30 15:12:42 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (28.7ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 15:13:34 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:13:35 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:13:51 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 126ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:14:03 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.8ms)
+Completed 200 OK in 100ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:14:16 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:14:35 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 217ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:14:52 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:15:06 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.6ms)
+Completed 200 OK in 148ms (Views: 147.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:15:21 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 100ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:15:45 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 111ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:15:57 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (1.1ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 120ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:16:28 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 127ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:17:09 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:17:13 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:17:35 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 15:17:59 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:19:42 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (2.5ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:19:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:19:48 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:20:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 138ms (Views: 137.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hilltown" for 127.0.0.1 at 2016-08-30 15:20:41 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/hilltown"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [32 times] (16.3ms)
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.9ms)
+Started GET "/" for 127.0.0.1 at 2016-08-30 15:21:01 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-30 15:21:16 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-30 15:21:22 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+

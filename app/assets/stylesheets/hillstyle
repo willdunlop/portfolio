@@ -140,7 +140,7 @@ body {
 
 }
 
-.about {
+.abouthill {
   margin 0 auto 0 auto;
   margin-left: 20%;
   margin-right: 20%;
@@ -158,12 +158,12 @@ body {
   padding-right: 25%;*/
 }
 
-.about:hover {
+.abouthill:hover {
   background-color: rgba(225,225,225,0.9);
 
 }
 
-.when {
+.whenhill {
   margin 0 auto 0 auto;
   margin-left: 20%;
   margin-right: 20%;
@@ -181,7 +181,7 @@ body {
   padding-right: 25%;*/
 }
 
-.when:hover {
+.whenhill:hover {
   background-color: rgba(225,225,225,0.9);
 
 }
