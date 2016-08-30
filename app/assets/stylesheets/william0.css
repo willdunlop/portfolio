@@ -33,13 +33,14 @@ h4{
 
 body {
   background: url(http://i67.tinypic.com/16lirk7.png) no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
 .linkbar {
   margin: 0 auto 0 auto;
   width: 975px;
-  height: 70px;
+  height: 60px;
 }
 
 .nav {
@@ -47,12 +48,13 @@ body {
  background-position: center;
  margin: 0px auto 20px auto;
  /*position: fixed;*/
- height: 200px;
- width: 1600px;
+ height: 170px;
+ width: 1300px;
  border-style: solid;
  border-width: medium;;
  border-color: #fff;
  font-family: 'Ubuntu', sans-serif;
+ font-size: 14px;
  color: #fff;
 
 }
@@ -195,8 +197,8 @@ a:hover { text-decoration: none; color:#17d000; }
      background: #000;
      border: 5px solid #eaeaea;
      box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-     height: 600px;
-     width: 1585px;
+     height: 500px;
+     width: 1300px;
      margin: 40px auto 20px auto;
      overflow: visible;
      position: relative;
@@ -204,7 +206,7 @@ a:hover { text-decoration: none; color:#17d000; }
 
   #mask {
      overflow: hidden;
-     height: 600px;
+     height: 500px;
    }
 
   #slider ul {
@@ -230,19 +232,19 @@ a:hover { text-decoration: none; color:#17d000; }
   }
 
 @keyframes cycle {
-  0% {top: -5px; opacity: 1;}
-  48% {top: -300px; opacity: 1;}
-  50% {top: -300px; opacity: 0;}
-  98% {top: 0px; opacity: 0;}
-  100% {top: -5px; opacity: 1;}
+  0% {top: -5px; opacity: 1; left: -175px}
+  48% {top: -300px; opacity: 1; left: -175px}
+  50% {top: -300px; opacity: 0; left: -175px}
+  98% {top: 0px; opacity: 0; left: -175px}
+  100% {top: -5px; opacity: 1; left: -175px}
 }
 
 @keyframes cycletwo {
-  0% {top: -325px; opacity: 0;}
-  48% {top: -325px; opacity: 0;}
-  50% {top: -310px; opacity: 1;}
-  98% {top: -15px; opacity: 1;}
-  100% {top: 0px; opacity: 0;}
+  0% {top: -325px; opacity: 0; left: -175px}
+  48% {top: -325px; opacity: 0; left: -175px}
+  50% {top: -310px; opacity: 1; left: -175px}
+  98% {top: -15px; opacity: 1; left: -175px}
+  100% {top: 0px; opacity: 0; left: -175px}
 }
 
 
@@ -250,13 +252,13 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .topwork {
 
-  height: 300px;
-  width: 1600px;
+  height: 250px;
+  width: 1300px;
   margin: 0px auto 0px auto;
   font-family: 'Ubuntu', sans-serif;
 }
   .hilltown {
-    width: 750px;
+    width: 600px;
     height: 230px;
     background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
@@ -266,7 +268,7 @@ a:hover { text-decoration: none; color:#17d000; }
     border-style: solid;
     border-color: #898787
     border-width: thin;
-    font-size: 18px;
+    font-size: 14px;
   }
     .hillimage {
       width: 250px;
@@ -279,7 +281,7 @@ a:hover { text-decoration: none; color:#17d000; }
     }
 
   .benyk {
-    width: 750px;
+    width: 600px;
     height: 230px;
     background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
@@ -289,7 +291,7 @@ a:hover { text-decoration: none; color:#17d000; }
     border-style: solid;
     border-color: #898787
     border-width: thin;
-    font-size: 18px;
+    font-size: 14px;
   }
     .benykimage {
       width: 250px;
@@ -346,8 +348,8 @@ a:hover { text-decoration: none; color:#17d000; }
   background-color: rgba(255, 255, 255, 0.55);
   border-style: solid;
   border-color: #000;
-  margin: 0px auto 0px auto;
-  width:1570px;
+  margin: 25px auto 0px auto;
+  width:1275px;
   height: 610px;
   color: #000;
 }
@@ -385,9 +387,63 @@ a:hover { text-decoration: none; color:#17d000; }
   border-style: solid;
   border-color: #000;
   margin: 0px auto 0px auto;
-  width:1570px;
-  height: 610px;
+  width:1275px;
+  height: 310px;
   color: #000;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+
 
 }
+
+
+/* Contacts */
+
+.socialinks{
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0px auto 0px auto;
+  width: 300px;
+  height: 375px;
+  padding: 1%;
+  color: #000;
+  font-family: 'Ubuntu', sans-serif;
+  border-style: solid;
+}
+
+  .face{
+    background-image: url(https://www.facebookbrand.com/img/fb-art.jpg);
+  }
+  .linkedin{
+
+  }
+  .git {
+
+  }
+
+.contacter {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0px auto 0px auto;
+  width: 300px;
+  height: 375px;
+  padding: 1%;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  border-style: solid;
+}
+
+  .input {
+    margin: 8px auto 8px auto;
+    border-bottom-style: dashed;
+    padding-bottom: 20px;
+  }
+
+  .deliver {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0px auto 0px auto;
+    width: 300px;
+    height: 100px;
+    padding: 1%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    border-style: solid;
+  }

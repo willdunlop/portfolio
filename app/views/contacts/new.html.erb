@@ -1,0 +1,30 @@
+
+<div class="sociallinks">
+  <h2>Links</h2>
+  <div class="face">
+  </div>
+  <div class="linkedin">
+  </div>
+  <div class="git">
+  </div>
+</div>
+
+
+
+
+<div class = "contacter" align="center">
+  <h3>Get in touch!</h3>
+
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :message, :as => :text, :required => true %>
+    <div class= "hidden">
+      <!-- <%= f.input :nickname, :hint => 'Leave this field blank!' %> -->
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>

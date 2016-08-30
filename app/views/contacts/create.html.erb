@@ -1,0 +1,13 @@
+
+<meta HTTP-EQUIV="REFRESH" content="3; url= http://localhost:3000">
+
+<div>
+  <% flash.each do |key, value| %>
+    <div class ="deliver">
+      <h2>Thank you!</h2>
+      <!-- <a href="#" data-dismiss="alert">×</a> -->
+        <%= value %>
+    </div>
+
+  <% end %>
+</div>

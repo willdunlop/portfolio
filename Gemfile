@@ -8,6 +8,8 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
+gem 'mail_form'
+gem 'simple_form'
 gem 'devise'
 gem 'bootstrap-sass'
 
