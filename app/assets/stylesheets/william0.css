@@ -5,6 +5,8 @@
 
 h1 {
   text-align: center;
+  text-decoration-style: solid;
+  text-decoration-color: #000;
   font-family: 'Droid Sans', sans-serif;
   background-color: rgba(0, 0, 0, 0.2);
   letter-spacing: 25px;
@@ -496,11 +498,14 @@ a:hover { text-decoration: none; color:#17d000; }
   width: 750px;
   margin: 0 auto 0 auto;
   transition-duration: 2s;
+  pointer-events: none;
+  /*border-style: solid;*/
 
 }
-.tophillimages:hover{
+ .tophillimages:hover {
   height: 398px;
 }
+
 
   .image {
      width: 141px;
@@ -519,6 +524,7 @@ a:hover { text-decoration: none; color:#17d000; }
      /*border-radius: 5%;*/
      border-style: solid;
      border-color: #000;
+     pointer-events: auto;
      /*float: left;*/
   }
 
@@ -556,6 +562,7 @@ a:hover { text-decoration: none; color:#17d000; }
     float: right;
     background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
     background-size: contain;
+    pointer-events: auto;
     /*border-radius: 5%;*/
     border-style: solid;
     border-color: #000
@@ -578,6 +585,8 @@ a:hover { text-decoration: none; color:#17d000; }
     margin: 0 auto 0 auto;
     margin-top: 10px;
     transition-duration: 2s;
+    pointer-events: none;
+
   }
 
   .bothillimages:hover{
@@ -598,6 +607,7 @@ a:hover { text-decoration: none; color:#17d000; }
     background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
     background-size: contain;
     float: left;
+    pointer-events: auto;
     /*border-radius: 5%;*/
     border-style: solid;
     border-color: #000
@@ -629,6 +639,7 @@ a:hover { text-decoration: none; color:#17d000; }
   background: url(http://i67.tinypic.com/ts2x.jpg) no-repeat;
   background-size: contain;
   float: right;
+  pointer-events: auto;
   /*border-radius: 5%;*/
   border-style: solid;
   border-color: #000
@@ -637,7 +648,7 @@ a:hover { text-decoration: none; color:#17d000; }
 .image4:hover {
   width: 427px;
   height: 281px;
-  background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+  background: url(http://i67.tinypic.com/ts2x.jpg) no-repeat;
   background-size: contain;
   /*border-radius: 5%;*/
   border-width: thick;
