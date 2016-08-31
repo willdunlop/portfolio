@@ -393,31 +393,56 @@ a:hover { text-decoration: none; color:#17d000; }
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
 
+}
 
+.logo{
+  background: url(http://i63.tinypic.com/2nbaa6b.png) no-repeat;
+  background-size: contain;
+  float: right;
+  width: 250px;
+  height: 200px;
 }
 
 
 /* Contacts */
 
-.socialinks{
-  background-color: rgba(255, 255, 255, 0.6);
-  margin: 0px auto 0px auto;
+.sociallinks{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0px auto 25px auto;
   width: 300px;
-  height: 375px;
+  height: 125px;
   padding: 1%;
-  color: #000;
+  padding-top: 0%;
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
   border-style: solid;
+  text-align: center;
 }
 
   .face{
-    background: url(https://www.facebookbrand.com/img/fb-art.jpg);
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1000px-Facebook_F_icon.svg.png);
+    background-size: contain;
+    float:left;
   }
   .linkedin{
-
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png);
+    background-size: contain;
+    float:left;
   }
   .git {
-
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: url(http://i65.tinypic.com/28ldt09.png);
+    background-size: contain;
+    float: left;
   }
 
 .contacter {
