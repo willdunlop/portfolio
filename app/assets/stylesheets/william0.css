@@ -329,37 +329,29 @@ a:hover { text-decoration: none; color:#17d000; }
     }
 
   .code {
-    width: 750px;
+    width: 1300px;
     height: 230px;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 20px auto 0px auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 40px auto 0px auto;
     padding: 5px 5px 5px 5px;
-    color: #fff;
-    float: right;
+    color: #000;
     border-style: solid;
-    border-width: thin;
+    border-width: medium;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
   }
 
     .codeimage {
-
+      width: 400px;
+      height: 200px;
+      background: url(http://67.media.tumblr.com/bb5461e43cadc2a0f10e2157f531abd0/tumblr_mlow5rolId1sn65iqo1_500.gif) no-repeat;
+      margin-right: 20px;
+      margin-left: 5px;
+      margin-top: 15px;
+      float: left;
     }
 
-.silo {
-  padding: 1%;
-  background-color: rgba(255, 255, 255, 0.55);
-  border-style: solid;
-  border-color: #000;
-  margin: 25px auto 0px auto;
-  width:1275px;
-  height: 610px;
-  color: #000;
-}
 
-  .silovid {
-    float:left;
-    margin-right: 20px;
-  }
 
 
   /* Login and registration fields*/
@@ -700,3 +692,197 @@ a:hover { text-decoration: none; color:#17d000; }
     background-color: rgba(225,225,225,0.9);
 
   }
+
+/* BENYK */
+
+.benhead {
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.0);
+  letter-spacing: 25px;
+  padding-top: 1%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  width: 1300px;
+
+}
+
+.topbenimages{
+height: 200px;
+width: 750px;
+margin: 0 auto 0 auto;
+transition-duration: 2s;
+pointer-events: none;
+/*border-style: solid;*/
+
+}
+.topbenimages:hover {
+height: 398px;
+}
+
+
+.imageb {
+   width: 141px;
+   height: 59px;
+   padding: 25px;
+   /*margin: 0 auto 0 auto;
+   /*margin-left: 25px;*/
+   /*margin-top: 25px;
+   margin-bottom: 25px;*/
+   transition: width 2s height 2s;
+   transition-duration: 2s;
+   background-color: rgb(70, 70, 70);
+   float:left;
+   background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+   background-size: contain;
+   /*border-radius: 5%;*/
+   border-style: solid;
+   border-color: #000;
+   pointer-events: auto;
+   /*float: left;*/
+}
+
+
+.imageb:hover {
+  width: 426px;
+  height: 222px;
+  background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+  background-size: contain;
+  /*border-radius: 5%;*/
+  border-width: thick;
+
+}
+
+
+.imageb2 {
+  width: 141.5px;
+  height: 142px;
+  padding: 25px;
+  margin: 0 auto 0 auto;
+  transition: width 2s height 2s;
+  transition-duration: 2s;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+  float: right;
+  background: url(http://i65.tinypic.com/fjji4w.png) no-repeat;
+  background-size: contain;
+  pointer-events: auto;
+  /*border-radius: 5%;*/
+  border-style: solid;
+  border-color: #000
+
+}
+
+.imageb2:hover {
+  width: 376px;
+  height: 375px;
+  background: url(http://i65.tinypic.com/fjji4w.png) no-repeat;
+  background-size: contain;
+  /*border-radius: 5%;*/
+  border-width: thick;
+
+}
+
+.botbenimages{
+  height: 200px;
+  width: 750px;
+  margin: 0 auto 0 auto;
+  margin-top: 50px;
+  transition-duration: 2s;
+  pointer-events: none;
+
+}
+
+.botbenimages:hover{
+  height: 398px;
+}
+
+.imageb3 {
+  width: 141px;
+  height: 142px;
+  padding: 25px;
+  margin: 0 auto 0 auto;
+  transition: width 2s height 2s;
+  transition-duration: 2s;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+  background: url(http://i65.tinypic.com/24v905s.jpg) no-repeat;
+  background-size: contain;
+  float: left;
+  pointer-events: auto;
+  /*border-radius: 5%;*/
+  border-style: solid;
+  border-color: #000
+
+}
+
+.imageb3:hover {
+  width: 376px;
+  height: 375px;
+  background: url(http://i65.tinypic.com/24v905s.jpg) no-repeat;
+  background-size: contain;
+  /*border-radius: 5%;*/
+  border-width: thick;
+
+}
+
+.imageb4{
+
+width: 141px;
+height: 142px;
+padding: 25px;
+margin: 0 auto 0 auto;
+transition: width 2s height 2s;
+transition-duration: 2s;
+background-color: rgb(70, 70, 70);
+text-align: center;
+font-family: 'Shadows Into Light', cursive;
+color: #fff;
+background: url(http://i65.tinypic.com/2d9ebu8.jpg) no-repeat;
+background-size: contain;
+float: right;
+pointer-events: auto;
+/*border-radius: 5%;*/
+border-style: solid;
+border-color: #000
+}
+
+.imageb4:hover {
+  width: 376px;
+  height: 375px;
+background: url(http://i65.tinypic.com/2d9ebu8.jpg) no-repeat;
+background-size: contain;
+/*border-radius: 5%;*/
+border-width: thick;
+
+}
+
+.aboutben {
+  margin 0 auto 0 auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding: 20px;
+  background-color: rgba(225,225,225,0.5);
+  border-style: solid;
+  text-align: center;
+  text-decoration: #000;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  transition-duration: 1s;
+  /*padding-left: 25%;
+  padding-right: 25%;*/
+}
+
+.aboutben:hover {
+  background-color: rgba(225,225,225,0.9);
+
+}

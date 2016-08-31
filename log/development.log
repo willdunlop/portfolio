@@ -8215,3 +8215,404 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/about" for 127.0.0.1 at 2016-08-31 15:34:02 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.0ms)
+  Rendered partials/_nav.html.erb (3.8ms)
+Completed 200 OK in 700ms (Views: 686.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 15:34:10 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.5ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:34:12 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 15:34:14 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:38:37 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 92ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:38:37 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 95ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:44:13 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.2ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:46:01 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:46:16 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (3.0ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:46:28 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (3.9ms)
+Completed 200 OK in 82ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:46:48 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (5.0ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:46:58 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.3ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:47:13 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 84ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:47:40 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (4.8ms)
+Completed 200 OK in 124ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:48:01 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 147ms (Views: 146.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:48:12 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 74ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:48:51 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.3ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:49:35 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:50:08 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:50:32 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:50:51 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:51:01 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (1.9ms)
+Completed 200 OK in 86ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:51:30 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (7.1ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:52:09 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:56:28 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:57:25 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (2.6ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:57:29 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 15:57:40 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.6ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-31 15:59:08 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered partials/_nav.html.erb (1.5ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 15:59:22 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:00:27 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:00:58 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:01:12 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:01:24 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:01:32 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.3ms)
+Completed 200 OK in 88ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:02:25 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.6ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 84ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:02:49 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:03:01 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (1.3ms)
+Completed 200 OK in 77ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:13:07 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:13:29 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (7.8ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:14:30 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:14:46 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:15:03 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.8ms)
+  Rendered partials/_nav.html.erb (8.7ms)
+Completed 200 OK in 169ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:15:31 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (1.0ms)
+  Rendered partials/_nav.html.erb (1.5ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:15:58 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.5ms)
+  Rendered partials/_nav.html.erb (5.2ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 16:28:42 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.9ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-08-31 16:30:42 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (74.9ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 138ms (Views: 129.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-08-31 16:30:44 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-31 16:31:38 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 16:32:49 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
