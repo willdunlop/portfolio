@@ -8616,3 +8616,185 @@ Processing by PagesController#work as HTML
 Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-31 18:14:42 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+  Rendered partials/_nav.html.erb (3.5ms)
+Completed 200 OK in 564ms (Views: 548.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 18:14:50 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/hilltown" for 127.0.0.1 at 2016-08-31 18:14:59 +1000
+Processing by PagesController#hilltown as HTML
+  Rendering pages/hilltown.html.erb within layouts/application
+  Rendered pages/hilltown.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-08-31 18:15:18 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (4.2ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/benyk" for 127.0.0.1 at 2016-08-31 18:15:50 +1000
+Processing by PagesController#benyk as HTML
+  Rendering pages/benyk.html.erb within layouts/application
+  Rendered pages/benyk.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-08-31 18:17:01 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+  Rendered partials/_nav.html.erb (1.0ms)
+Completed 200 OK in 87ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-08-31 18:17:12 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (91.3ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 137ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2016-08-31 18:17:46 +1000
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QxR/7l+ti25arKBJW8sVrBVZ73Kv3cFQ8K+h5wJfEWTzZ7NRIod0kRn99rKX4CulNfllK6t8uG6p7rM6LtZjng==", "contact"=>{"name"=>"Irene", "email"=>"Irene@gmail.com", "message"=>"Nice website. Want to hire you"}, "commit"=>"Send message"}
+  Rendering /home/will/.rvm/gems/ruby-2.3.1/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /home/will/.rvm/gems/ruby-2.3.1/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb (1.4ms)
+MailForm::Notifier#contact: processed outbound mail in 216.7ms
+Sent mail to william.dunlop.1993@gmail.com (4823.6ms)
+Date: Wed, 31 Aug 2016 18:17:47 +1000
+From: Irene <Irene@gmail.com>
+To: william.dunlop.1993@gmail.com
+Message-ID: <57c692ab4a44_cf024884404167@will-VirtualBox.mail>
+Subject: My Contact Form
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">My Contact Form</h4>
+
+
+  <p><b>Name:</b>
+  Irene</p>
+
+  <p><b>Email:</b>
+  Irene@gmail.com</p>
+
+  <p><b>Message:</b>
+  Nice website. Want to hire you</p>
+
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (1.7ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 5446ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-31 18:17:55 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 65ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-01 10:08:00 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered partials/_nav.html.erb (3.8ms)
+Completed 200 OK in 545ms (Views: 529.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-09-01 10:08:44 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered partials/_nav.html.erb (0.8ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-01 10:08:46 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.2ms)
+Completed 200 OK in 57ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-01 10:11:02 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (1.1ms)
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-01 10:11:17 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (7.5ms)
+Completed 200 OK in 166ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-09-01 10:16:08 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (3.1ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-01 10:23:06 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (1.5ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-01 10:24:27 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (3.0ms)
+  Rendered partials/_nav.html.erb (2.2ms)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-01 10:27:23 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (6.3ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-09-01 10:28:54 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered partials/_nav.html.erb (4.4ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+

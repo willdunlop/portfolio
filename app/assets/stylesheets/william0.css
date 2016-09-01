@@ -271,6 +271,12 @@ a:hover { text-decoration: none; color:#17d000; }
     border-color: #898787
     border-width: thin;
     font-size: 14px;
+    transition-duration: 0.5s;
+  }
+
+  .hilltown:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
   }
     .hillimage {
       width: 250px;
@@ -294,6 +300,12 @@ a:hover { text-decoration: none; color:#17d000; }
     border-color: #898787
     border-width: thin;
     font-size: 14px;
+    transition-duration: 0.5s;
+  }
+
+  .benyk:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
   }
     .benykimage {
       width: 250px;
