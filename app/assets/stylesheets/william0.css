@@ -268,7 +268,7 @@ a:hover { text-decoration: none; color:#17d000; }
     color: #000;
     float: left;
     border-style: solid;
-    border-color: #898787
+    border-color: #898787;
     border-width: thin;
     font-size: 14px;
     transition-duration: 0.5s;
@@ -297,7 +297,7 @@ a:hover { text-decoration: none; color:#17d000; }
     color: #000;
     float: right;
     border-style: solid;
-    border-color: #898787
+    border-color: #898787;
     border-width: thin;
     font-size: 14px;
     transition-duration: 0.5s;
@@ -660,7 +660,7 @@ a:hover { text-decoration: none; color:#17d000; }
 }
 
   .abouthill {
-    margin 0 auto 0 auto;
+    margin: 0 auto 0 auto;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 6%;
@@ -683,7 +683,7 @@ a:hover { text-decoration: none; color:#17d000; }
   }
 
   .whenhill {
-    margin 0 auto 0 auto;
+    margin: 0 auto 0 auto;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 6%;
