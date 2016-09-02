@@ -19,7 +19,7 @@
   }
 
   .mnavbut:active {
-    
+
 
   }
 
@@ -79,7 +79,7 @@ h4{
 }
 
 body {
-  background: url(background.png) no-repeat;
+  background: url("background.png") no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -594,7 +594,7 @@ a:hover { text-decoration: none; color:#17d000; }
   .image:hover {
     width: 537.5px;
     height: 350px;
-    background: url(hillhouse.jpg) no-repeat;
+    background: url("hillhouse.jpg") no-repeat;
     background-size: cover;
     /*border-radius: 5%;*/
     border-width: thick;
