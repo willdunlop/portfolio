@@ -1,7 +1,52 @@
 /* PORTFOLIO WEBSITE */
+@media (max-width: 768px) {
+
+
+
+
+
+  .nav {
+    display: none;
+  }
+
+  .mnavbut {
+
+  width: 50px;
+  height: 50px;
+  background: url(burg.png);
+  transition-duration: 1s;
+
+  }
+
+  .mnavbut:active {
+    
+
+  }
+
+
+}
+
+/*@media (min-width: 769px) {
+  .mnavbut {
+    display: none;
+  }*/
+/*--------------------MOBILE NAV-------------------------*/
+/*.mnavbut {
+
+width: 65px;
+height: 65px;
+background-color: rgba(0, 50, 0, 0.8);
+
+}*/
+
 
 /* NAV-BAR */
 
+html {
+  width: auto;
+  height: auto;
+  display: inline;
+}
 
 h1 {
   text-align: center;
@@ -34,7 +79,7 @@ h4{
 }
 
 body {
-  background: url(http://i67.tinypic.com/16lirk7.png) no-repeat;
+  background: url(background.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -46,7 +91,7 @@ body {
 }
 
 .nav {
- background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+ background: url(nav.jpg) no-repeat;
  background-position: center;
  margin: 0px auto 20px auto;
  /*position: fixed;*/
@@ -61,6 +106,9 @@ body {
  color: #fff;
 
 }
+
+
+
 
 a { color:#fff; outline: 0;} /* Globally */
 
@@ -193,7 +241,7 @@ a:hover { text-decoration: none; color:#17d000; }
 
 .foot{
   margin: 0 auto 0 auto;
-  width: 600px;
+  width: 100%;
   height: 15px;
   /*background-color: rgba(0, 0, 0, 0.5);*/
   color: #fff;
@@ -214,15 +262,15 @@ a:hover { text-decoration: none; color:#17d000; }
      border: 5px solid #eaeaea;
      box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
      height: 500px;
-     /*width: 1300px;*/
      margin: 40px auto 20px auto;
+     width: 80vw;
      overflow: visible;
      position: relative;
    }
 
   #mask {
      overflow: hidden;
-     height: 491px;
+     height: 500px;
    }
 
   #slider ul {
@@ -298,7 +346,7 @@ a:hover { text-decoration: none; color:#17d000; }
     .hillimage {
       width: 250px;
       height: 250px;
-      background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+      background: url(hill1.jpg) no-repeat;
       background-size: contain;
       float: left;
       margin: 20px 20px 5px 5px;
@@ -330,7 +378,7 @@ a:hover { text-decoration: none; color:#17d000; }
     .benykimage {
       width: 250px;
       height: 250px;
-      background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+      background: url(benyk1.jpg) no-repeat;
       background-size: contain;
       float: left;
       margin: 20px 20px 5px 5px;
@@ -360,7 +408,7 @@ a:hover { text-decoration: none; color:#17d000; }
     .codeimage {
       width: 400px;
       height: 200px;
-      background: url(http://67.media.tumblr.com/bb5461e43cadc2a0f10e2157f531abd0/tumblr_mlow5rolId1sn65iqo1_500.gif) no-repeat;
+      background: url(code.gif) no-repeat;
       margin-right: 20px;
       margin-left: 5px;
       margin-top: 15px;
@@ -405,7 +453,7 @@ a:hover { text-decoration: none; color:#17d000; }
 }
 
 .logo{
-  background: url(http://i63.tinypic.com/2nbaa6b.png) no-repeat;
+  background: url(logo.png) no-repeat;
   background-size: contain;
   float: right;
   width: 250px;
@@ -416,16 +464,16 @@ a:hover { text-decoration: none; color:#17d000; }
 /* Contacts */
 
 .sociallinks{
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   margin: 20px auto 25px auto;
   width: 300px;
   height: 125px;
   padding: 1%;
   padding-top: 0%;
-  color: #fff;
+  color: #000;
   font-family: 'Ubuntu', sans-serif;
-  border-style: solid;
   text-align: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
 }
 
   .face{
@@ -433,7 +481,7 @@ a:hover { text-decoration: none; color:#17d000; }
     height: 50px;
     margin-right: 20px;
     margin-left: 40px;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1000px-Facebook_F_icon.svg.png);
+    background: url(face.png);
     background-size: contain;
     float:left;
   }
@@ -441,7 +489,7 @@ a:hover { text-decoration: none; color:#17d000; }
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png);
+    background: url(linkedin.png);
     background-size: contain;
     float:left;
   }
@@ -449,20 +497,20 @@ a:hover { text-decoration: none; color:#17d000; }
     width: 50px;
     height: 50px;
     margin-right: 10px;
-    background: url(http://i65.tinypic.com/28ldt09.png);
+    background: url(github.png);
     background-size: contain;
     float: left;
   }
 
 .contacter {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   margin: 0px auto 0px auto;
-  width: 300px;
+  width: 295px;
   height: 375px;
   padding: 1%;
-  color: #fff;
+  color: #000;
   font-family: 'Ubuntu', sans-serif;
-  border-style: solid;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
 }
 
   .input {
@@ -525,7 +573,7 @@ a:hover { text-decoration: none; color:#17d000; }
      transition-duration: 2s;
      background-color: rgb(70, 70, 70);
      float:left;
-     background: url(http://i63.tinypic.com/wb2elz.jpg) no-repeat;
+     background: url(hillhouse.jpg) no-repeat;
      background-size: cover;
      /*border-radius: 5%;*/
      border-style: solid;
@@ -546,7 +594,7 @@ a:hover { text-decoration: none; color:#17d000; }
   .image:hover {
     width: 537.5px;
     height: 350px;
-    background: url(http://i63.tinypic.com/wb2elz.jpg) no-repeat;
+    background: url(hillhouse.jpg) no-repeat;
     background-size: cover;
     /*border-radius: 5%;*/
     border-width: thick;
@@ -565,7 +613,7 @@ a:hover { text-decoration: none; color:#17d000; }
     font-family: 'Shadows Into Light', cursive;
     color: #fff;
     float: right;
-    background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+    background: url(hill1.jpg) no-repeat;
     background-size: cover;
     pointer-events: auto;
     /*border-radius: 5%;*/
@@ -577,7 +625,7 @@ a:hover { text-decoration: none; color:#17d000; }
   .image2:hover {
     width: 537.5px;
     height: 350px;
-    background: url(http://i65.tinypic.com/sxorcy.jpg) no-repeat;
+    background: url(hill1.jpg) no-repeat;
     background-size: cover;
     /*border-radius: 5%;*/
     border-width: thick;
@@ -608,7 +656,7 @@ a:hover { text-decoration: none; color:#17d000; }
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     color: #fff;
-    background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+    background: url(nav.jpg) no-repeat;
     background-size: cover;
     float: left;
     pointer-events: auto;
@@ -621,7 +669,7 @@ a:hover { text-decoration: none; color:#17d000; }
   .image3:hover {
     width: 537.5px;
     height: 350px;
-    background: url(http://i67.tinypic.com/2yl4j9x.jpg) no-repeat;
+    background: url(nav.jpg) no-repeat;
     background-size: cover;
     /*border-radius: 5%;*/
     border-width: thick;
@@ -639,7 +687,7 @@ a:hover { text-decoration: none; color:#17d000; }
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   color: #fff;
-  background: url(http://i67.tinypic.com/ts2x.jpg) no-repeat;
+  background: url(fields.jpg) no-repeat;
   background-size: cover;
   float: right;
   pointer-events: auto;
@@ -651,7 +699,7 @@ a:hover { text-decoration: none; color:#17d000; }
 .image4:hover {
   width: 537.5px;
   height: 350px;
-  background: url(http://i67.tinypic.com/ts2x.jpg) no-repeat;
+  background: url(fields.jpg) no-repeat;
   background-size: cover;
   /*border-radius: 5%;*/
   border-width: thick;
@@ -740,7 +788,7 @@ height: 398px;
    transition-duration: 2s;
    background-color: rgb(70, 70, 70);
    float:left;
-   background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+   background: url(benyk1.jpg) no-repeat;
    background-size: cover;
    /*border-radius: 5%;*/
    border-style: solid;
@@ -753,7 +801,7 @@ height: 398px;
 .imageb:hover {
   width: 420px;
   height: 240px;
-  background: url(http://i68.tinypic.com/2iw6gpt.jpg) no-repeat;
+  background: url(benyk1.jpg) no-repeat;
   background-size: cover;
   /*border-radius: 5%;*/
   border-width: thick;
@@ -773,7 +821,7 @@ height: 398px;
   font-family: 'Shadows Into Light', cursive;
   color: #fff;
   float: right;
-  background: url(http://i65.tinypic.com/fjji4w.png) no-repeat;
+  background: url(benyk2.png) no-repeat;
   background-size: cover;
   pointer-events: auto;
   /*border-radius: 5%;*/
@@ -785,7 +833,7 @@ height: 398px;
 .imageb2:hover {
   width: 376px;
   height: 375px;
-  background: url(http://i65.tinypic.com/fjji4w.png) no-repeat;
+  background: url(benyk2.png) no-repeat;
   background-size: cover;
   /*border-radius: 5%;*/
   border-width: thick;
@@ -817,7 +865,7 @@ height: 398px;
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   color: #fff;
-  background: url(http://i65.tinypic.com/24v905s.jpg) no-repeat;
+  background: url(benyk3.jpg) no-repeat;
   background-size: cover;
   float: left;
   pointer-events: auto;
@@ -830,7 +878,7 @@ height: 398px;
 .imageb3:hover {
   width: 376px;
   height: 375px;
-  background: url(http://i65.tinypic.com/24v905s.jpg) no-repeat;
+  background: url(benyk3.jpg) no-repeat;
   background-size: cover;
   /*border-radius: 5%;*/
   border-width: thick;
@@ -849,7 +897,7 @@ background-color: rgb(70, 70, 70);
 text-align: center;
 font-family: 'Shadows Into Light', cursive;
 color: #fff;
-background: url(http://i65.tinypic.com/2d9ebu8.jpg) no-repeat;
+background: url(benyk4.jpg) no-repeat;
 background-size: cover;
 float: right;
 pointer-events: auto;
@@ -861,7 +909,7 @@ border-color: #000
 .imageb4:hover {
   width: 376px;
   height: 375px;
-background: url(http://i65.tinypic.com/2d9ebu8.jpg) no-repeat;
+background: url(benyk4.jpg) no-repeat;
 background-size: cover;
 /*border-radius: 5%;*/
 border-width: thick;
@@ -895,109 +943,109 @@ border-width: thick;
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-}
+}*/
 
 /* Portrait */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-}
+}*/
 
 /* Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
+}*/
 
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-}
+}*/
 
 /* Portrait */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-}
+}*/
 
 /* Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
+}*/
 
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-}
+}*/
 
 /* Portrait */
-@media only screen
+/*@media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-}
+}*/
 
 /* Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
+}*/
 
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 414px)
-  and (max-device-width: 736px) 
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-}
+}*/
 
 /* Portrait */
-@media only screen
+/*@media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-
-}
+*/
+/*}*/
 
 /* Landscape */
-@media only screen
+/*@media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
 
-}
+}*/
