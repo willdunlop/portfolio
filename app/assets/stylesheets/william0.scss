@@ -1,7 +1,17 @@
 /* PORTFOLIO WEBSITE */
+
+
+
+
+
 @media (max-width: 768px) {
 
 
+  a { text-decoration: none; color:#fff; outline: 0;} /* Globally */
+
+  a:visited { text-decoration: none; color:#fff; }
+  a:focus { text-decoration: none; color:#fff;}
+  a:hover { text-decoration: none; color:#17d000; }
 
 
 
@@ -9,22 +19,791 @@
     display: none;
   }
 
-  .mnavbut {
+  // .mnavbut {
+  //
+  // width: 50px;
+  // height: 50px;
+  // background: image-url("burg.png");
+  //
+  // }
 
-  width: 50px;
-  height: 50px;
-  background: url(burg.png);
-  transition-duration: 1s;
+
+
+  .mnav{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    // background: url(nav.jpg) no-repeat;
+    // background-position: 35% 43%;
+    // filter: blur(5px);
+    // background-color: rgba(200, 230, 200, 0.8);
+    // border-style: solid;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    transition-duration: 1s;
+
+
 
   }
 
-  .mnavbut:active {
+    .mitem{
+      height: 4px;
+      padding-right: 3%;
+      padding-left: 3%;
+      padding-bottom: 1%;
+      float:left;
+      color: #000;
+    }
+
+    .mitem:hover{
+      background-color: rgb(25,25,25)
+    }
+
+    h1 {
+      text-align: center;
+      text-decoration-style: solid;
+      text-decoration-color: #000;
+      font-family: 'Droid Sans', sans-serif;
+      /*background-color: rgba(0, 0, 0, 0.2);*/
+      letter-spacing: 25px;
+      padding-top: 1%;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff;
+      width: 1300px;
+
+    }
+
+    h4{
+      margin-left: 200px;
+      text-align: center;
+      font-family: 'Droid Sans', sans-serif;
+      color: #fff;
+      padding: 1px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+
+    }
+
+    body {
+      background: image-url("background.png") no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .linkbar {
+      margin: 0 auto 0 auto;
+      width: 975px;
+      height: 60px;
+    }
 
 
-  }
+
+
+    /* HOME PAGE */
+
+
+    .foot{
+      margin: 0 auto 0 auto;
+      width: 100%;
+      height: 15px;
+      /*background-color: rgba(0, 0, 0, 0.5);*/
+      color: #fff;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    .container {
+      height: 540px;
+    }
+
+    #content-slider{
+      margin: 0 auto 0 auto;
+    }
+
+      #slider {
+         background: #000;
+         border: 5px solid #eaeaea;
+         box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+         height: 500px;
+         margin: 40px auto 20px auto;
+         width: 80%;
+         max-width: 1300px;
+         overflow: visible;
+         position: relative;
+       }
+
+      #mask {
+         overflow: hidden;
+         height: 500px;
+       }
+
+      #slider ul {
+         margin: 0;
+         padding: 0;
+         position: relative;
+       }
+
+      #slider li {
+         width: 680px;  /* Width Image */
+         height: 320px; /* Height Image */
+         position: absolute;
+         top: -325px; /* Original Position - Outside of the Slider */
+         list-style: none;
+      }
+
+      #slider li.firstanimation {
+       animation: cycle 15s linear infinite;
+      }
+
+      #slider li.secondanimation {
+         animation: cycletwo 15s linear infinite;
+      }
+
+    @keyframes cycle {
+      0% {top: -5px; opacity: 1; left: -400px}
+      48% {top: -300px; opacity: 1; left: -400px}
+      50% {top: -300px; opacity: 0; left: -400px}
+      98% {top: 0px; opacity: 0; left: -400px}
+      100% {top: -5px; opacity: 1; left: -400px}
+    }
+
+    @keyframes cycletwo {
+      0% {top: -325px; opacity: 0; left: -175px}
+      48% {top: -325px; opacity: 0; left: -175px}
+      50% {top: -310px; opacity: 1; left: -175px}
+      98% {top: -15px; opacity: 1; left: -175px}
+      100% {top: 0px; opacity: 0; left: -175px}
+    }
+
+
+      /* WORK PAGE */
+
+    .topwork {
+      width: 100%;
+      height: 950px;
+      margin: 0px auto 0px auto;
+      font-family: 'Ubuntu', sans-serif;
+    }
+      .hilltown {
+        width: 90%;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.55);
+        margin: 20px auto 0px auto;
+        padding: 5px 5px 5px 5px;
+        color: #000;
+
+        /*border-style: solid;
+        border-color: #898787;
+        border-width: thin;*/
+        box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+        font-size: 14px;
+        transition-duration: 0.5s;
+      }
+
+      .hilltown:active {
+        background-color: rgba(0, 0, 0, 0.55);
+        color: #fff;
+        box-shadow: 1px 1px 5px rgba( 172, 172, 0, 0.7);
+
+      }
+        .hillimage {
+          width: 90%;
+          height: 225px;
+          background: url(hill1.jpg) no-repeat;
+          background-size: contain;
+          margin: 20px auto 0 auto;
+
+        }
+
+      .benyk {
+        width: 90%;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.55);
+        margin: 20px auto 0px auto;
+        padding: 5px 5px 5px 5px;
+        color: #000;
+
+        /*border-style: solid;
+        border-color: #898787;
+        border-width: thin;*/
+        box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+        font-size: 14px;
+        transition-duration: 0.5s;
+      }
+
+      .benyk:hover {
+        background-color: rgba(0, 0, 0, 0.55);
+        color: #fff;
+        box-shadow: 1px 1px 5px rgba( 172, 172, 0, 0.7);
+
+      }
+        .benykimage {
+          width: 90%;
+          height: 200px;
+          background: url(benyk1.jpg) no-repeat;
+          background-size: contain;
+          margin: 20px auto 0 auto;
+        }
+
+    .bottomwork {
+      width: 100%;
+      height: 1250px;
+      margin: 0px auto 0px auto;
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+
+
+
+      .code {
+        width: 90%;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.55);
+        margin: 20px auto 0px auto;
+        padding: 5px 5px 5px 5px;
+        color: #000;
+        box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+        font-size: 14px;
+        transition-duration: 0.5s;
+      }
+
+        .codeimage {
+          width: 90%;
+          height: 225px;
+          background: url(code.gif) no-repeat;
+          background-size: cover;
+          margin: 20px auto 0 auto;
+        }
+
+
+
+
+      /* Login and registration fields*/
+
+    .SU {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 0px auto 0px auto;
+      width: 300px;
+      height: 375px;
+      padding: 1%;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
+      border-style: solid;
+    }
+
+      .field {
+        margin: 8px auto 8px auto;
+        border-bottom-style: dashed;
+        padding-bottom: 20px;
+      }
+
+    /* ABOUT ME */
+
+    .me {
+      padding: 1%;
+      background-color: rgba(255, 255, 255, 0.55);
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+      margin: 20px auto 0px auto;
+      width:90%;
+      height: 900px;
+      color: #000;
+      font-family: 'Ubuntu', sans-serif;
+      text-align: center;
+      font-size: 18px;
+
+    }
+
+    .logo{
+      background: url(logo.png) no-repeat;
+      background-size: contain;
+      width: 250px;
+      height: 200px;
+      margin: 0 auto 0 auto;
+    }
+
+
+    /* Contacts */
+
+    .sociallinks{
+      background-color: rgba(255, 255, 255, 0.7);
+      margin: 20px auto 25px auto;
+      width: 300px;
+      height: 125px;
+      padding: 1%;
+      padding-top: 0%;
+      color: #000;
+      font-family: 'Ubuntu', sans-serif;
+      text-align: center;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
+    }
+
+      .face{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: 40px;
+        background: url(face.png);
+        background-size: contain;
+        float:left;
+      }
+      .linkedin{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        background: url(linkedin.png);
+        background-size: contain;
+        float:left;
+      }
+      .git {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        background: url(github.png);
+        background-size: contain;
+        float: left;
+      }
+
+    .contacter {
+      background-color: rgba(255, 255, 255, 0.6);
+      margin: 0px auto 0px auto;
+      width: 295px;
+      height: 375px;
+      padding: 1%;
+      color: #000;
+      font-family: 'Ubuntu', sans-serif;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
+    }
+
+      .input {
+        margin: 8px auto 8px auto;
+        border-bottom-style: dashed;
+        padding-bottom: 20px;
+      }
+
+      .deliver {
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 0px auto 0px auto;
+        width: 300px;
+        height: 100px;
+        padding: 1%;
+        color: #fff;
+        font-family: 'Ubuntu', sans-serif;
+        border-style: solid;
+      }
+
+
+      /* HILLTOWN */
+
+      .hillheading {
+        text-align: center;
+        font-family: 'Droid Sans', sans-serif;
+        background-color: rgba(0, 0, 0, 0.0);
+        letter-spacing: 25px;
+        padding-top: 1%;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000;
+        width: 1300px;
+
+      }
+
+    .tophillimages{
+      height: 200px;
+      width: 775px;
+      margin: 0 auto 0 auto;
+      transition-duration: 2s;
+      pointer-events: none;
+      /*border-style: solid;*/
+
+    }
+     .tophillimages:hover {
+      height: 398px;
+    }
+
+
+      .image {
+        width: 215px;
+        height: 140px;
+         /*margin: 0 auto 0 auto;
+         /*margin-left: 25px;*/
+         /*margin-top: 25px;
+         margin-bottom: 25px;*/
+         transition: width 2s height 2s;
+         transition-duration: 2s;
+         background-color: rgb(70, 70, 70);
+         float:left;
+         background: url(hillhouse.jpg) no-repeat;
+         background-size: cover;
+         /*border-radius: 5%;*/
+         border-style: solid;
+         border-color: #000;
+         pointer-events: auto;
+         /*float: left;*/
+      }
+
+      .text1 {
+        background-color: rgba(225,225,225,0.3);
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 18px;
+        color: #000;
+
+      }
+
+      .image:hover {
+        width: 537.5px;
+        height: 350px;
+        background: url("hillhouse.jpg") no-repeat;
+        background-size: cover;
+        /*border-radius: 5%;*/
+        border-width: thick;
+
+      }
+
+
+      .image2 {
+        width: 215px;
+        height: 140px;
+        margin: 0 auto 0 auto;
+        transition: width 2s height 2s;
+        transition-duration: 2s;
+        background-color: rgb(70, 70, 70);
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        color: #fff;
+        float: right;
+        background: url(hill1.jpg) no-repeat;
+        background-size: cover;
+        pointer-events: auto;
+        /*border-radius: 5%;*/
+        border-style: solid;
+        border-color: #000;
+
+      }
+
+      .image2:hover {
+        width: 537.5px;
+        height: 350px;
+        background: url(hill1.jpg) no-repeat;
+        background-size: cover;
+        /*border-radius: 5%;*/
+        border-width: thick;
+
+      }
+
+      .bothillimages{
+        height: 200px;
+        width: 775px;
+        margin: 0 auto 0 auto;
+        margin-top: 10px;
+        transition-duration: 2s;
+        pointer-events: none;
+
+      }
+
+      .bothillimages:hover{
+        height: 398px;
+      }
+
+      .image3 {
+        width: 215px;
+        height: 140px;
+        margin: 0 auto 0 auto;
+        transition: width 2s height 2s;
+        transition-duration: 2s;
+        background-color: rgb(70, 70, 70);
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        color: #fff;
+        background: url(nav.jpg) no-repeat;
+        background-size: cover;
+        float: left;
+        pointer-events: auto;
+        /*border-radius: 5%;*/
+        border-style: solid;
+        border-color: #000
+
+      }
+
+      .image3:hover {
+        width: 537.5px;
+        height: 350px;
+        background: url(nav.jpg) no-repeat;
+        background-size: cover;
+        /*border-radius: 5%;*/
+        border-width: thick;
+
+      }
+
+    .image4{
+
+      width: 215px;
+      height: 140px;
+      margin: 0 auto 0 auto;
+      transition: width 2s height 2s;
+      transition-duration: 2s;
+      background-color: rgb(70, 70, 70);
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      color: #fff;
+      background: url(fields.jpg) no-repeat;
+      background-size: cover;
+      float: right;
+      pointer-events: auto;
+      /*border-radius: 5%;*/
+      border-style: solid;
+      border-color: #000
+    }
+
+    .image4:hover {
+      width: 537.5px;
+      height: 350px;
+      background: url(fields.jpg) no-repeat;
+      background-size: cover;
+      /*border-radius: 5%;*/
+      border-width: thick;
+
+    }
+
+      .abouthill {
+        margin: 0 auto 0 auto;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding: 20px;
+        background-color: rgba(225,225,225,0.8);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        text-decoration: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        transition-duration: 1s;
+        /*padding-left: 25%;
+        padding-right: 25%;*/
+      }
+
+
+
+      .whenhill {
+        margin: 0 auto 0 auto;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding: 20px;
+        background-color: rgba(225,225,225,0.8);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        text-decoration: #000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        transition-duration: 1s;
+        /*padding-left: 25%;
+        padding-right: 25%;*/
+      }
+
+
+
+    /* BENYK */
+
+    .benhead {
+      text-align: center;
+      font-family: 'Droid Sans', sans-serif;
+      background-color: rgba(0, 0, 0, 0.0);
+      letter-spacing: 25px;
+      padding-top: 1%;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #000;
+      width: 1300px;
+
+    }
+
+    .topbenimages{
+    height: 200px;
+    width: 750px;
+    margin: 0 auto 0 auto;
+    transition-duration: 2s;
+    pointer-events: none;
+    /*border-style: solid;*/
+
+    }
+    .topbenimages:hover {
+    height: 398px;
+    }
+
+
+    .imageb {
+       width: 168px;
+       height: 96px;
+       /*margin: 0 auto 0 auto;
+       /*margin-left: 25px;*/
+       /*margin-top: 25px;
+       margin-bottom: 25px;*/
+       transition: width 2s height 2s;
+       transition-duration: 2s;
+       background-color: rgb(70, 70, 70);
+       float:left;
+       background: url(benyk1.jpg) no-repeat;
+       background-size: cover;
+       /*border-radius: 5%;*/
+       border-style: solid;
+       border-color: #000;
+       pointer-events: auto;
+       /*float: left;*/
+    }
+
+
+    .imageb:hover {
+      width: 420px;
+      height: 240px;
+      background: url(benyk1.jpg) no-repeat;
+      background-size: cover;
+      /*border-radius: 5%;*/
+      border-width: thick;
+
+    }
+
+
+    .imageb2 {
+      width: 141.5px;
+      height: 142px;
+      padding: 25px;
+      margin: 0 auto 0 auto;
+      transition: width 2s height 2s;
+      transition-duration: 2s;
+      background-color: rgb(70, 70, 70);
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      color: #fff;
+      float: right;
+      background: url(benyk2.png) no-repeat;
+      background-size: cover;
+      pointer-events: auto;
+      /*border-radius: 5%;*/
+      border-style: solid;
+      border-color: #000
+
+    }
+
+    .imageb2:hover {
+      width: 376px;
+      height: 375px;
+      background: url(benyk2.png) no-repeat;
+      background-size: cover;
+      /*border-radius: 5%;*/
+      border-width: thick;
+
+    }
+
+    .botbenimages{
+      height: 200px;
+      width: 750px;
+      margin: 0 auto 0 auto;
+      margin-top: 50px;
+      transition-duration: 2s;
+      pointer-events: none;
+
+    }
+
+    .botbenimages:hover{
+      height: 398px;
+    }
+
+    .imageb3 {
+      width: 141px;
+      height: 142px;
+      padding: 25px;
+      margin: 0 auto 0 auto;
+      transition: width 2s height 2s;
+      transition-duration: 2s;
+      background-color: rgb(70, 70, 70);
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      color: #fff;
+      background: url(benyk3.jpg) no-repeat;
+      background-size: cover;
+      float: left;
+      pointer-events: auto;
+      /*border-radius: 5%;*/
+      border-style: solid;
+      border-color: #000
+
+    }
+
+    .imageb3:hover {
+      width: 376px;
+      height: 375px;
+      background: url(benyk3.jpg) no-repeat;
+      background-size: cover;
+      /*border-radius: 5%;*/
+      border-width: thick;
+
+    }
+
+    .imageb4{
+
+    width: 141px;
+    height: 142px;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    transition: width 2s height 2s;
+    transition-duration: 2s;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+    background: url(benyk4.jpg) no-repeat;
+    background-size: cover;
+    float: right;
+    pointer-events: auto;
+    /*border-radius: 5%;*/
+    border-style: solid;
+    border-color: #000
+    }
+
+    .imageb4:hover {
+      width: 376px;
+      height: 375px;
+    background: url(benyk4.jpg) no-repeat;
+    background-size: cover;
+    /*border-radius: 5%;*/
+    border-width: thick;
+
+    }
+
+    .aboutben {
+      margin: 0 auto 0 auto;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 6%;
+      margin-bottom: 6%;
+      padding: 20px;
+      background-color: rgba(225,225,225,0.8);
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      text-decoration: #000;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 18px;
+      transition-duration: 1s;
+      /*padding-left: 25%;
+      padding-right: 25%;*/
+    }
 
 
 }
+
 
 /*@media (min-width: 769px) {
   .mnavbut {
@@ -39,7 +818,10 @@ background-color: rgba(0, 50, 0, 0.8);
 
 }*/
 
-
+@media (min-width: 769px) {
+  .mnav{
+    display:none;
+  }
 /* NAV-BAR */
 
 html {
@@ -263,7 +1045,8 @@ a:hover { text-decoration: none; color:#17d000; }
      box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
      height: 500px;
      margin: 40px auto 20px auto;
-     width: 80vw;
+     width: 80%;
+     max-width: 1300px;
      overflow: visible;
      position: relative;
    }
@@ -288,11 +1071,11 @@ a:hover { text-decoration: none; color:#17d000; }
   }
 
   #slider li.firstanimation {
-   animation: cycle 25s linear infinite;
+   animation: cycle 15s linear infinite;
   }
 
   #slider li.secondanimation {
-     animation: cycletwo 25s linear infinite;
+     animation: cycletwo 15s linear infinite;
   }
 
 @keyframes cycle {
@@ -315,14 +1098,15 @@ a:hover { text-decoration: none; color:#17d000; }
   /* WORK PAGE */
 
 .topwork {
-
-  height: 250px;
   width: 1300px;
+  height: 250px;
+
   margin: 0px auto 0px auto;
   font-family: 'Ubuntu', sans-serif;
 }
   .hilltown {
     width: 600px;
+
     height: 230px;
     background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
@@ -355,6 +1139,7 @@ a:hover { text-decoration: none; color:#17d000; }
 
   .benyk {
     width: 600px;
+
     height: 230px;
     background-color: rgba(255, 255, 255, 0.55);
     margin: 20px auto 0px auto;
@@ -1049,3 +1834,4 @@ border-width: thick;
   and (orientation: landscape) {
 
 }*/
+}
