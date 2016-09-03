@@ -30,7 +30,7 @@
 
 
   .mnav{
-    width: 300px;
+    width: 90%;
     height: 40px;
     margin: 0 auto 0 auto;
     // background: url(nav.jpg) no-repeat;
@@ -39,19 +39,28 @@
     // background-color: rgba(200, 230, 200, 0.8);
     // border-style: solid;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     text-align: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     transition-duration: 1s;
 
 
-
   }
-
+    .mlinks{
+      width:267px;
+      height:50px;
+      margin: 0 auto 0 auto;
+    }
     .mitem{
       height: 4px;
-      padding-right: 3%;
-      padding-left: 3%;
-      padding-bottom: 1%;
+      margin-right: 25px;
+
+      float:left;
+      color: #000;
+    }
+
+    .mcitem{
+      height: 4px;
       float:left;
       color: #000;
     }
