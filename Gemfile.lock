@@ -140,6 +140,8 @@ GEM
     simple_form (3.3.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
+    sitemap_generator (5.1.0)
+      builder
     spring (1.7.2)
     spring-watcher-listen (2.0.0)
       listen (>= 2.7, < 4.0)
@@ -190,6 +192,7 @@ DEPENDENCIES
   rails (~> 5.0.0, >= 5.0.0.1)
   sass-rails (~> 5.0)
   simple_form
+  sitemap_generator
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3

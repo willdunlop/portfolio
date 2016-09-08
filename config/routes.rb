@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'pages/links'
   get 'pages/hilltown'
   get 'pages/benyk'
+  get "sitemap.xml" => "sitemaps#index", :format => "xml", :as => :sitemap
   match '/contacts',     to: 'contacts#new',             via: 'get'
 resources "contacts", only: [:new, :create]
   # get 'pages/hilltown'
