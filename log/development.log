@@ -18973,3 +18973,43 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 72ms (Views: 66.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/work" for 127.0.0.1 at 2016-09-08 19:15:06 +1000
+Processing by PagesController#work as HTML
+  Rendering pages/work.html.erb within layouts/application
+  Rendered pages/work.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (2.8ms)
+Completed 200 OK in 107ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-09-08 19:15:07 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (4.6ms)
+  Rendered partials/_nav.html.erb (4.4ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-09-08 19:15:07 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (9.5ms)
+  Rendered partials/_nav.html.erb (7.1ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2016-09-08 19:15:08 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered partials/_nav.html.erb (0.9ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2016-09-08 19:15:09 +1000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (17.7ms)
+  Rendered partials/_nav.html.erb (1.9ms)
+Completed 200 OK in 94ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
