@@ -31,8 +31,8 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
+  # config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'https://willdunlop.herokuapp.com' }
 
 
   # Print deprecation notices to the Rails logger.

@@ -335,19 +335,22 @@
       margin: 20px auto 25px auto;
       width: 300px;
       height: 125px;
-      padding: 1%;
-      padding-top: 0%;
       color: #000;
       font-family: 'Ubuntu', sans-serif;
       text-align: center;
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
     }
 
+    .slinksbar{
+      margin: 0 auto 0 auto;
+      width: 200px;
+      height: 50px;
+    }
+
       .face{
         width: 50px;
         height: 50px;
         margin-right: 20px;
-        margin-left: 40px;
         background: image-url("face.png");
         background-size: contain;
         float:left;
@@ -363,7 +366,6 @@
       .git {
         width: 50px;
         height: 50px;
-        margin-right: 10px;
         background: image-url("github.png");
         background-size: contain;
         float: left;
@@ -395,6 +397,64 @@
         color: #fff;
         font-family: 'Ubuntu', sans-serif;
         border-style: solid;
+      }
+
+      #contact_name{
+        background-color: rgba(255, 255, 255, 0.8);
+        border-style: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+        width: 60%;
+        height: 20px;
+      }
+
+      #contact_email {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-style: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+        width: 60%;
+        height: 20px;
+      }
+
+      #contact_message {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-style: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+        width: 60%;
+        height: 80px;
+      }
+
+      label.string.required {
+        display: none;
+      }
+
+      label.email.required {
+        display: none;
+      }
+
+      label.text.required {
+        display: none;
+      }
+
+      .button.btn.btn-primary {
+        width: 40%;
+        height: 50px;
+        background-color: rgb(142, 170, 92);
+        border-style: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
+      }
+
+      .button.btn.btn-primary:hover {
+        background-color: rgb(94, 134, 23);
+        color: #fff;
+      }
+
+      .button.btn.btn-primary:active {
+        background-color: rgb(113, 136, 73);
+        border-style: none;
+        outline: 0;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
       }
 
 
@@ -1088,11 +1148,16 @@ a:hover { text-decoration: none; color:#17d000; }
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7)
 }
 
+.slinksbar{
+  margin: 0 auto 0 auto;
+  width: 200px;
+  height: 50px;
+}
+
   .face{
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    margin-left: 40px;
     background: image-url("face.png");
     background-size: contain;
     float:left;
@@ -1108,7 +1173,6 @@ a:hover { text-decoration: none; color:#17d000; }
   .git {
     width: 50px;
     height: 50px;
-    margin-right: 10px;
     background: image-url("github.png");
     background-size: contain;
     float: left;
@@ -1142,6 +1206,63 @@ a:hover { text-decoration: none; color:#17d000; }
     border-style: solid;
   }
 
+  #contact_name{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    width: 60%;
+    height: 20px;
+  }
+
+  #contact_email {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    width: 60%;
+    height: 20px;
+  }
+
+  #contact_message {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    width: 60%;
+    height: 80px;
+  }
+
+  label.string.required {
+    display: none;
+  }
+
+  label.email.required {
+    display: none;
+  }
+
+  label.text.required {
+    display: none;
+  }
+
+  .button.btn.btn-primary {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(142, 170, 92);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
+  }
+
+  .button.btn.btn-primary:hover {
+    background-color: rgb(94, 134, 23);
+    color: #fff;
+  }
+
+  .button.btn.btn-primary:active {
+    background-color: rgb(113, 136, 73);
+    border-style: none;
+    outline: 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
+  }
 
   /* HILLTOWN */
 
