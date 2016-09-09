@@ -95,6 +95,6 @@ Rails.application.configure do
    user_name:            ENV['MAILGUN_U'],
    password:             ENV['MAILGUN_P'],
    authentication:       'plain',
-     }
- }
+   enable_starttls_auto: true  }
+ 
 end
