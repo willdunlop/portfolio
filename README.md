@@ -42,10 +42,16 @@ Both minimalistic design and aesthetic have been considered throughout the entir
 
 #Wireframes
 
-
+Wireframes that were generated to help with the design and production of this site can be found at: https://github.com/willdunlop/portfolio/tree/master/app/assets/images/Wireframes
 
 #Style Guide
 
+A style guide has been created using codepen.
+The link is: https://codepen.io/Dynat/pen/XjmAZo
+
 #Personal Logo
 
+The logo i designed for this website was taken from my hilltown project in order to maintain the theme. It is based around the house found on the hill which I consider an iconic part of that project. I used photoshop in order to edit it by placing several extra effects such as a bevel, outline, outer glow, increase in brightness and contrast as well as my initials superimposed on the the ceiling. 
+
+The logo itself can be found at: https://github.com/willdunlop/portfolio/blob/master/app/assets/images/logo.png
 

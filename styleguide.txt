@@ -1,0 +1,379 @@
+
+
+---------- HTML ----------
+
+<head>
+  
+  <!-- -------FONTS------- -->
+ <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Shadows+Into+Light|Ubuntu" rel="stylesheet"> 
+  
+</head>
+
+<body>
+  <article class="nav">
+      <h1 class="NH1">Nav Bar H1</h1>
+      <h4 class="NH4">Nav Bar H2</h4>
+  
+
+      <article class="linkbar">
+          <div class="navbutton">
+            <p>Nav Button 1</p>
+          </div>
+          <div class="navbutton">
+            <p>Nav Button 2</p>
+          </div>
+          <div class="navbutton">
+            <p>Nav Button 3</p>
+          </div>
+          <div class="navbutton">
+            <p>Nav Button 4</p>
+          </div>
+    </article>
+  </article>
+  
+  
+  <h3 class="stylesheeth3">Mobile Navbar</h3>
+  
+        <div class="mnav">
+        <div class="mlinks">
+            <div class="mitem">
+              <p>MNAV1</p>
+            </div>
+          <div class="mitem">
+            <p>MNAV2</p>
+          </div>
+          <div class="mitem">
+            <p>MNAV3</p>
+          </div>
+          <div class="mcitem">
+            <p>MNAV4</p>
+          </div>
+        </div>
+      </div>
+  
+  <div class="textbox-link" >
+        <h2>Text Box Link</h2>
+        <p>This is how a text box that links to another webpage appears on the site. It has a hover effect</p>
+      </div>
+  
+  <div class="textbox" >
+        <h2>Text Box (no link)</h2>
+        <p>This is how a regular text box that does not link to another webpage appears on the site. It has no hover effect</p>
+      </div>
+  
+  <div class="image">
+    <div class="text1">
+      <p>Expandable Image</p>
+    </div>
+  </div>
+      
+  <h3>Contact Form Fields</h3>
+  <div class="behave">
+  <input class="string required" required="required" aria-required="true" placeholder="This is the name and email field" name="contact[name]" id="contact_name" type="text">
+  
+  <textarea class="text required" required="required" aria-required="true" placeholder="This is the message field" name="contact[message]" id="contact_message"></textarea>
+  </div>
+  
+  <div class="buttonbehave">
+  <input name="commit" value="Contact Form Button" class="button btn btn-primary" data-disable-with="Send message" type="submit">
+  
+    </div>
+    
+  <div class="heads">
+    <h1>This is h1</h1>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+    <h4>This is h4</h4>
+  </div>
+  
+  <div class="fontsdiv">
+    <h3>Fonts</h3>
+    
+    <p class="ubu">Ubuntu, sans serrif, is used for bodies of texts and headings</p>
+    <p class="droi">Droid Sans, sans-serrif, is used for headings within the Navbar</p>
+    <p class="shad">Shadows of Light, cursive, is used for headings on expandable images</p>
+  </div>
+
+
+
+---------- SCSS ----------
+
+
+body {
+  background: url(http://i67.tinypic.com/2rmy5xe.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.linkbar {
+  margin: 0 auto 0 auto;
+  width: 1050px;
+  height: 60px;
+}
+
+.nav {
+ background: url(http://i67.tinypic.com/25swikz.jpg) no-repeat;
+ background-position: center;
+ margin: 0px auto 20px auto;
+ /*position: fixed;*/
+ height: 170px;
+ width: 1300px;
+ /*border-style: solid;
+ border-width: medium;;
+ border-color: #fff;*/
+ box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 14px;
+ color: #fff;
+
+}
+
+.navbutton{
+  float: left;
+  width: 200px;
+  text-align:center;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: thin;
+  transition-duration: 0.5s;
+  color: #fff;
+  /*transition-timing-function: ease-in-out;*/
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+  .navbutton:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000;
+  }
+
+.NH1 {
+  text-align: center;
+  text-decoration-style: solid;
+  text-decoration-color: #000;
+  font-family: 'Droid Sans', sans-serif;
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+  letter-spacing: 25px;
+  padding-top: 1%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  width: 1300px;
+
+}
+
+.NH4{
+  margin-left: 200px;
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  padding: 1px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+
+}
+
+.stylesheeth3{
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.mnav{
+    width: 350px;
+    height: 40px;
+    margin: 0px auto 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    transition-duration: 1s;
+
+
+  }
+    .mlinks{
+      width:285px;
+      height:50px;
+      margin: 0 auto 0 auto;
+    }
+    .mitem{
+      height: 4px;
+      margin-right: 25px;
+
+      float:left;
+      color: #000;
+    }
+
+    .mcitem{
+      height: 4px;
+      float:left;
+      color: #000;
+    }
+
+    .mitem:hover{
+      background-color: rgb(25,25,25)
+    }
+
+    .mcitem:hover{
+      background-color: rgb(25,25,25)
+    }
+
+.textbox-link {
+    width: 300px;
+    height: 120px;
+  font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(255, 255, 255, 0.55);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #000;
+    box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+    font-size: 14px;
+    transition-duration: 0.5s;
+  }
+
+  .textbox-link:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    box-shadow: 1px 1px 5px rgba( 172, 172, 0, 0.7);
+
+  }
+
+.textbox {
+    width: 300px;
+    height: 120px;
+  font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(255, 255, 255, 0.55);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #000;
+    box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+    font-size: 14px;
+    transition-duration: 0.5s;
+  }
+
+.image {
+    width: 215px;
+    height: 140px;
+     margin: 30px auto 0 auto;
+     transition: width 2s height 2s;
+     transition-duration: 2s;
+     background-color: rgb(70, 70, 70);
+     background: image-url("hillhouse.jpg") no-repeat;
+     background-size: cover;
+     border-style: solid;
+     border-color: #000;
+     pointer-events: auto;
+  }
+.text1 {
+    background-color: rgba(225,225,225,0.3);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    color: #000;
+
+  }
+
+  .image:hover {
+    width: 537.5px;
+    height: 350px;
+    background: image-url("example.jpg") no-repeat;
+    background-size: cover;
+    border-width: thick;
+
+  }
+
+.behave {
+      margin: 0 auto 0 auto;
+  width: 250px;
+}
+
+#contact_name{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 20px;
+  }
+#contact_message {
+    margin: 20px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 80px;
+  }
+
+.buttonbehave {
+      margin: 20px auto 0 auto;
+    width: 150px;
+
+}
+
+.button.btn.btn-primary {
+    height: 50px;
+    background-color: rgb(142, 170, 92);
+    border-style: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
+  }
+
+  .button.btn.btn-primary:hover {
+    background-color: rgb(94, 134, 23);
+    color: #fff;
+  }
+
+  .button.btn.btn-primary:active {
+    background-color: rgb(113, 136, 73);
+    border-style: none;
+    outline: 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+
+  }
+
+.heads {
+  margin: 40px auto 40px auto;
+}
+ h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.fontsdiv {
+ width: 300px;
+    height: 200px;
+  font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(255, 255, 255, 0.55);
+    margin: 20px auto 0px auto;
+    padding: 5px 5px 5px 5px;
+    color: #000;
+    box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.7);
+    font-size: 14px;
+}
+.ubu{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.droi {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.shad {
+      font-family: 'Shadows Into Light', cursive;
+
+}
+
+--------------------
+END
