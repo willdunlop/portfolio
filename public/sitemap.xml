@@ -1,34 +1,33 @@
-base_url = "http://#{request.host_with_port}"
-xml.instruct! :xml, :version=>'1.0'
-xml.tag! 'urlset', 'xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9' do
-  xml.url{
-      xml.loc("http://willdunlop.herokuapp.com")
-      xml.changefreq("weekly")
-      xml.priority(1.0)
-  }
-  xml.url{
-      xml.loc("http://willdunlop.herokuapp.com/pages/work")
-      xml.changefreq("daily")
-      xml.priority(0.9)
-  }
-  xml.url{
-      xml.loc("http://willdunlop.herokuapp.com/pages/about")
-      xml.changefreq("daily")
-      xml.priority(0.9)
-  }
-  @work.each do |p|
-    xml.url {
-      xml.loc("#{work_url(work)}")
-      xml.changefreq("weekly")
-      xml.priority(0.5)
-    }
-  end
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  @about.each do |p|
-    xml.url {
-      xml.loc("#{about_url(about)}")
-      xml.changefreq("weekly")
-      xml.priority(0.5)
-    }
-  end
-end
+<url>
+  <loc>http://willdunlop.herokuapp.com/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://willdunlop.herokuapp.com/pages/work</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://willdunlop.herokuapp.com/pages/about</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://willdunlop.herokuapp.com/contacts</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://willdunlop.herokuapp.com/pages/hilltown</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://willdunlop.herokuapp.com/pages/benyk</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
