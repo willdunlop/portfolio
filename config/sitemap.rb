@@ -1,12 +1,22 @@
+
 # Set the host name for URL creation
 SitemapGenerator::Sitemap.default_host = "http://www.willdunlop.herokuapp.com"
 
 SitemapGenerator::Sitemap.adapter = SitemapGenerator::S3Adapter.new
 
+# SitemapGenerator::Sitemap.sitemaps_host =
+
 SitemapGenerator::Sitemap.public_path = 'tmp/'
+
+SitemapGenerator::Sitemap.sitemaps_path = 'sitemap/'
 
 
 SitemapGenerator::Sitemap.create do
+  add 'pages/work', :changefreq => 'daily'
+  Article.find_each do |article|
+    add article_path(article), lastmod: article.updated_at
+  end
+
   # Put links creation logic here.
   #
   # The root path '/' and sitemap index file are added automatically for you.
